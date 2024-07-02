@@ -8,7 +8,7 @@ router.get("/", function (req, res, next) {
     greeting: "Welcome, Good Morning",
     arr: [17, 29],
     author: {
-      name: "ElGibran",
+      name: "ElGibran17",
       email: "elgibran@echo.com",
     },
   };
