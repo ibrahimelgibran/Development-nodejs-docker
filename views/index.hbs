@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<p>Greeting : {{greeting}}</p>
+<p>Data Author : </p>
+{{#if author}}
+  <b>name : {{author.name}}</b><br />
+  <b>email : {{author.email}}</b><br />
+{{/if}}
+<p>Data array :</p>
+<ul>
+  {{#each arr}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
